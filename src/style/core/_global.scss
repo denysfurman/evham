@@ -1,0 +1,46 @@
+
+input,button,textarea{
+	appearance: none;
+}
+* {
+	outline: 0 !important;
+}
+
+html {
+	height: 100%;
+}
+body{
+	margin: 0;
+	font-family: $main-font !important;
+	height: 100%;
+    background-color: $white !important;
+}
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+main {
+	flex: 1 0 auto;
+}
+footer {
+	flex: 0 0 auto;
+}
+@media (min-width: 1200px) {
+	.container {
+		max-width: 1170px !important;
+	}
+}
+.btns {
+	text-align: center;
+	&:hover {
+		color: $white;
+		text-decoration: none;
+	}
+}
+.btn_standard {
+	background-color: $blue;
+	border-radius: 4px;
+	color: $white;
+	text-transform: uppercase;
+}
