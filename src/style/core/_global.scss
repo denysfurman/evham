@@ -20,6 +20,9 @@ body{
 	flex-direction: column;
 	height: 100%;
 }
+a{
+	transition: all 0.3s ease-in-out;
+}
 main {
 	flex: 1 0 auto;
 }
@@ -43,4 +46,9 @@ footer {
 	border-radius: 4px;
 	color: $white;
 	text-transform: uppercase;
+}
+.btn_donate:hover,.our_inspiration_item_inf .btn_donate:hover{
+	background-color: #fca100;
+	box-shadow: 0 5px 17px rgba(175, 113, 0, 0.3);
+	transition: all 0.2s ease;
 }
