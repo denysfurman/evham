@@ -1,0 +1,230 @@
+@media only screen and (max-width: 1200px) {
+  .top_nav{
+    display: none!important;
+  }
+  .main_history_item span:before{
+    display: none;
+    margin-bottom: 15px;
+  }
+
+  .section-intro .view_slider {
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+    margin: 0;
+  }
+  .slick-next,.slick-prev{
+    display: none!important;
+  }
+
+}
+
+@media only screen and (max-width: 992px) {
+  .top_title h1 {
+
+    font-size: 40px;
+  }
+  .top_title p {
+    font-size: 23px;
+    color: #fff;
+    margin-top: 30px;
+  }
+  .main_center_images {
+
+    margin-top: 40px;
+    flex-direction: row;
+    max-width: inherit;
+    float: initial;
+    background-color: transparent;
+    opacity: 1;
+    position: relative;
+    z-index: 10;
+  }
+  .main_center_images img:first-child {
+    margin-top: 0;
+
+  }
+  .main_center_images img {
+
+    margin-left: 0;
+    width: 50%;
+    height: 300px;
+    object-fit: cover;
+  }
+  .our_inspiration_item .our_inspiration_item_img {
+    width: 100%;
+    max-width: 400px;
+  }
+  .our_inspiration_item {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .our_inspiration_item_inf {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    height: 100%;
+    margin-top: 0;
+    justify-content: center;
+    padding: 40px 30px;
+  }
+  .main_history_item {
+    margin-top: 40px;
+  }
+  .main_about .our_inspiration_item_inf {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    height: auto;
+    justify-content: center;
+    padding: 40px 30px;
+
+    margin: 0;
+  }
+  .main_about_list_wr .main_about_list_title {
+    padding-left: 0;
+    margin-bottom: 27px;
+  }
+
+  .main_about_list_wr .main_about_list_title span, section h2 {
+
+    font-size: 36px;
+  }
+  .our_inspiration {
+    width: 100%;
+    padding: 70px 0 50px;
+  }
+  .main_about_title h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 21px;
+  }
+  .main_about_title span{
+    text-align: center;
+  }
+  .footer_item{
+    margin-top: 30px;
+  }
+  .main_contacts_inf {
+    width: 100%;
+
+    height: 300px;
+
+  }
+  .main_contacts_map {
+    width: 100%;
+  }
+  .main_contacts {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    iframe{
+      width: 100%;
+      height: 300px;
+    }
+  }
+  .top_title {
+    padding: 20px 10px;
+  }
+
+}
+@media only screen and (max-width: 767px) {
+  .background_thumbnail {
+    height: 400px;
+  }
+  .section-intro {
+    height: 400px;
+
+  }
+  .main_center_images {
+    margin-top: 40px;
+    flex-direction: column;
+  }
+  .main_center_images img {
+    margin-left: 0;
+    width: 100%;
+    max-height: 300px;
+  }
+  .main_about .our_inspiration_item .our_inspiration_item_img {
+    width: 100%;
+  }
+  .top_title h1 {
+    line-height: 32px;
+    font-size: 28px;
+  }
+  .top_title p {
+    font-size: 21px;
+    color: #fff;
+    margin-top: 30px;
+    line-height: 32px;
+  }
+  .top_title {
+    top: 0;
+    padding: 20px 10px;
+    height: 350px;
+    justify-content: center;
+  }
+  .section-intro {
+
+    background-color: #000000;
+  }
+  .main_center {
+    padding: 39px 0 80px;
+  }
+  .our_inspiration h1 {
+
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  .main_contacts_inf_locate {
+    width: 100%;
+    height: 127px;
+
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+  }
+  .main_center_item_top .counter_wr {
+
+    font-size: 27px;
+  }
+  .main_center .main_center_content span {
+
+    font-size: 26px;
+
+    margin-bottom: 10px;
+  }
+  .main_center .main_center_content p {
+    color: #616161;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .our_inspiration_item_inf p,.main_about_title span,.our_inspiration .section_description {
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20.03px;
+    margin-bottom: 15px;
+  }
+  .our_inspiration_item_inf .btn_donate {
+    width: 100%;
+  }
+  .main_about .our_inspiration_item_inf p {
+    margin-bottom: 15px;
+  }
+  .main_history {
+    width: 100%;
+    background-color: #fff;
+    padding-bottom: 40px;
+  }
+  .main_about_list_wr .main_about_list_title span, section h2 {
+    font-size: 28px;
+  }
+}

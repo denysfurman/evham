@@ -8,14 +8,20 @@
 @import "core/global";
 @import "core/fonts";
 
+
 //third party
 @import "../../node_modules/bootstrap/scss/bootstrap";
 @import "../../node_modules/slick-carousel/slick/slick.scss";
 
 // modules styles
+
 @import "modules/index";
 @import "modules/newmain";
 @import "modules/footer";
+
+@import "core/media";
+
+
 
 
 
