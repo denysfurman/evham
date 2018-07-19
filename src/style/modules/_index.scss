@@ -16,13 +16,17 @@
   padding-bottom: 30px;
 }
 .logo_wrap {
-  padding-left: 36px;
+  padding-left: 15px;
   padding-right: 36px;
 }
 .top_nav {
   display: flex;
   justify-content: space-between;
+
   align-items: center;
+  width: 815px;
+  float: left;
+  margin-right: 13px;
 }
 header {
   .menu-list {
@@ -115,11 +119,11 @@ header {
   }
 }
 .header_bar {
-  width: calc(100% - 645px);
+  width: 131px;
   display: flex;
   justify-content: space-between;
-  padding-left: 29px;
-  padding-top: 3px;
+  padding-left: 0;
+  padding-top: 18px;
 }
 .btn_donate {
   box-shadow: 0 5px 17px rgba(2, 157, 202, 0.3);
@@ -140,6 +144,13 @@ header {
   align-items: center;
   margin-right: 0;
   margin-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  border-right: 1px solid #ccc;
+  padding-bottom: 2px;
+  margin-top: -5px;
+  position: relative;
+  z-index: 101;
 }
 
 .header_form {
@@ -157,43 +168,44 @@ header {
   }
 }
 
-.language {
-  padding-right: 22px;
-  padding-left: 16px;
-  display: flex;
-  position: relative;
-  &:before {
-    content: '';
-    position: absolute;
-    width: 1px;
-    height: 30px;
-    background-color: #dddddd;
-    left: 0;
-    top: 50%;
-    transform: translate(-50%, -50%);
-  }
-}
-.lang {
-  border: none;
-  background-color: transparent;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 18px;
-  margin-bottom: 7px;
-  position: relative;
-  color: rgba(40, 40, 40, .5);
-  &.dropdown-toggle {
-    &:before {
-      position: absolute;
-      left: 31px;
-      top: 17px;
-      font-size: 9px;
-    }
-    &:after {
-      border:  none;
-    }
-  }
-}
+//.language {
+//  padding-right: 22px;
+//  padding-left: 16px;
+//  display: flex;
+//  position: relative;
+//  &:before {
+//    content: '';
+//    position: absolute;
+//    width: 1px;
+//    height: 30px;
+//    background-color: #dddddd;
+//    left: 0;
+//    top: 50%;
+//    transform: translate(-50%, -50%);
+//
+//  }
+//}
+//.lang {
+//  border: none;
+//  background-color: transparent;
+//  font-size: 16px;
+//  font-weight: 400;
+//  line-height: 18px;
+//  margin-bottom: 7px;
+//  position: relative;
+//  color: rgba(40, 40, 40, .5);
+//  &.dropdown-toggle {
+//    &:before {
+//      position: absolute;
+//      left: 31px;
+//      top: 5px;
+//      font-size: 9px;
+//    }
+//    &:after {
+//      border:  none;
+//    }
+//  }
+//}
 
 .section-intro {
   height: 701px;
@@ -333,4 +345,10 @@ header {
       display: none;
     }
   }
+}
+
+
+.slick-prev ,.slick-next{
+
+  width: 80px;
 }

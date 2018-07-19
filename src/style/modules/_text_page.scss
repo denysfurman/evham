@@ -1,0 +1,146 @@
+.text_page{
+  main{
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+}
+
+.video_section{
+  padding: 50px 0;
+  background-image: url("../img/video_bg.jpg");
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  margin: 50px 0;
+  h2{
+    text-align: center;
+    margin-bottom: 30px;
+
+  }
+  .video_item{
+    width: 100%;
+    margin-top: 20px;
+
+  }
+}
+
+.content{
+  color: #616161;
+  font-weight: 400;
+  h2{
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 48px;
+    display: inline-block;
+    width: 100%;
+    color: #fca100;
+    line-height: 1.2;
+    font-weight: 400;
+  }
+  .main_about_list_wr{
+    margin-bottom: 30px;
+  }
+  h1{
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 48px;
+    display: inline-block;
+    width: 100%;
+    color: #fca100;
+    line-height: 1.2;
+    font-weight: 400;
+  }
+  h3{
+    text-align: left;
+    margin-bottom: 30px;
+    font-size: 30px;
+    display: inline-block;
+    width: 100%;
+    color: #ffba40;
+    line-height: 1.2;
+    font-weight: 400;
+  }
+  img{
+    max-width: 100%;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .main_about_list_wr .main_about_list_title {
+    padding-left: 0;
+    span{
+      font-size: 30px;
+    }
+
+  }
+  p{
+    font-family: $sub-font;
+    margin-bottom: 20px;
+    line-height: 30px;
+    color: #616161;
+    font-weight: 400;
+  }
+  ul{
+    margin: 30px 0;
+    li{
+
+      position: relative;
+      padding-left: 34px;
+      list-style: none;
+      color: #282828;
+      font-family: $sub-font;
+      font-size: 16px;
+      margin-bottom: 10px;
+      &:before{
+        position: absolute;
+        content: '';
+        width: 6px;
+        height: 6px;
+        left: 15px;
+        top: 8px;
+        border-radius: 50%;
+        background-color: #ac0000;
+      }
+
+    }
+  }
+}
+
+.program{
+  margin: 30px 0 50px;
+  img{
+    margin-bottom: 0;
+  }
+
+  .program_name{
+    color: #ac0000;
+
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 20px;
+    display: block;
+
+  }
+  .donwload_size{
+    font-family: $sub-font;
+    color: #616161;
+    display: block;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-transform: uppercase;
+
+  }
+  .program_inf{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+  }
+  .btn_donate{
+    max-width: 200px;
+  }
+}
