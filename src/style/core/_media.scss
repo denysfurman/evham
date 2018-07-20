@@ -494,5 +494,8 @@
     display: inline-block;
     color: #fff;
   }
+  .footer_item.site_inf p:last-child, .top_title p {
+    margin-top: 5px;
+  }
 
 }
